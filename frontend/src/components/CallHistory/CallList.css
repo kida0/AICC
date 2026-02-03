@@ -1,0 +1,47 @@
+.call-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.call-list-loading,
+.call-list-empty {
+  text-align: center;
+  padding: 40px;
+  color: #6b7280;
+}
+
+.call-list-item {
+  padding: 16px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.call-list-item:hover {
+  border-color: #2563eb;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.call-list-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.call-list-phone {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.call-list-item-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  color: #6b7280;
+}

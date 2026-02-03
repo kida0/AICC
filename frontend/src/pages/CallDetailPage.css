@@ -1,0 +1,63 @@
+.call-detail-page {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f3f4f6;
+}
+
+.call-detail-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.call-detail-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111827;
+  margin: 24px 0;
+}
+
+.call-detail-info {
+  background-color: #f9fafb;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 32px;
+}
+
+.call-detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.call-detail-row:last-child {
+  border-bottom: none;
+}
+
+.call-detail-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+}
+
+.call-detail-value {
+  font-size: 16px;
+  color: #111827;
+}
+
+.call-detail-section {
+  margin-bottom: 32px;
+}
+
+.call-detail-section h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 16px;
+}

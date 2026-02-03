@@ -1,0 +1,54 @@
+.call-page {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f3f4f6;
+}
+
+.call-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.call-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 24px;
+}
+
+.call-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+
+.call-phone-number {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.call-transcripts-section {
+  margin-bottom: 32px;
+}
+
+.call-transcripts-section h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.call-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

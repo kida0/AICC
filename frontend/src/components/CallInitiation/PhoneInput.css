@@ -1,0 +1,46 @@
+.phone-input-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.phone-input-container h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #111827;
+}
+
+.phone-input-description {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 32px;
+}
+
+.phone-input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.phone-input-help {
+  padding: 16px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.phone-input-help strong {
+  color: #111827;
+}
+
+.phone-input-help ul {
+  margin: 8px 0 0 20px;
+  padding: 0;
+}
+
+.phone-input-help li {
+  margin: 4px 0;
+}
