@@ -9,7 +9,7 @@
 
 STT 앞단에 노이즈 제거를 붙여보면 어떨까 하는 관심이 생겼고, 이를 직접 실험해보기 위해 Claude Code로 AICC 시스템을 구성해보았습니다.
 
----
+
 
 ## AICC의 구성
 
@@ -23,13 +23,13 @@ AICC는 자동 전화 발신과 실시간 AI 음성 대화를 목표로 하며, 
 
 **기술 스택**: FastAPI, PostgreSQL, Redis, React, Twilio, OpenAI Whisper/TTS, Claude Code
 
----
+
 
 ## 문제점
 
 포부는 컸으나 Twilio에서 국내 전화번호로 발신하는 부분에서 막혀(...), 기능 테스트를 진행하지 못한 상황입니다.
 
----
+
 
 ## TODO
 
